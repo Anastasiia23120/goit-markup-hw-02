@@ -1,3 +1,4 @@
+/* ==================== COMMON STYLES ==================== */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -13,6 +14,12 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+/* ==================== /COMMON STYLES ==================== */
+
+/* ==================== HEADER STYLES ==================== */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -28,13 +35,6 @@ a {
 }
 .header-logo .logo-part {
   color: #2e2f42;
-}
-
-.footer-logo {
-  margin-bottom: 16px;
-}
-.footer-logo .logo-part {
-  color: #f4f4fd;
 }
 
 .nav-link {
@@ -62,7 +62,49 @@ a {
 .contacts-link:focus {
   color: #404bbf;
 }
+/* ==================== /HEADER STYLES ==================== */
+
+/* ==================== MAIN STYLES ==================== */
+.hero-image {
+  background-color: #2e2f42;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ord-serv-btn {
+  box-shadow: 0 4px 4px 0 #00000026;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+]
+/* ==================== /MAIN STYLES ==================== */
+
+/* ==================== FOOTER STYLES ==================== */
+
+.footer-logo {
+  margin-bottom: 16px;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
 
 .page-footer {
   background-color: #2e2f42;
 }
+
+/* ==================== /FOOTER STYLES ==================== */
+
+/* ==================== HERO STYLES ==================== */
+
+/* ==================== /HERO STYLES ==================== */
